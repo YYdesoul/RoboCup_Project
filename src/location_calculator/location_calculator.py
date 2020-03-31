@@ -38,7 +38,7 @@ class location_calculator:
         delta = np.pi - rel_alpha - gamma
 
         # calculate the actual distance d
-        d = c * np.sin(gamma) / np.sin(delta)
+        d = c * np.sin(delta) / np.sin(gamma)
 
         return d
 
